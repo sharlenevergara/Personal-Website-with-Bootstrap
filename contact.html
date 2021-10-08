@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact Me</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            nav a {
+                font-family: 'Poppins', sans-serif;
+            }
+
+            nav a:hover {
+                font-weight: bold;
+            }
+
+            .mt-5 {
+                margin-top: 70px !important;
+            }
+
+            .title {
+                font-family: 'Fredoka One', cursive;
+                text-transform: lowercase;
+                font-size: 30px;
+                letter-spacing: 4px;
+            }
+
+            .container label {
+                font-family: 'Poppins', sans-serif;
+            }
+
+            .container input, textarea {
+                padding: 15px;  
+                font-size: 15px;
+                border: 1px solid silver;
+                border-radius: 5px;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            .container input:focus, .container textarea:focus {
+                border-color: gray;
+                outline: none;  
+            }
+
+            .container button {
+                background-color: dimgray;
+                color: #ffffff;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+                padding: 10px 24px;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            .container button:hover {
+                background-color: gray;
+            }
+
+            .footer {
+                background-color: rgb(233, 150, 122, 0.3);
+                height: 10vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Poppins', sans-serif;
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav class="p-2" style="background-color: rgb(233, 150, 122, 0.3);">
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item"><a class="nav-link text-dark" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <form class="row">
+                <div class="col-md-12 title mt-5">Contact Me.</div>
+                <div class="col-md-6 mt-3">
+                    <label>First Name</label>
+                    <input class="w-100" type="text" name="firstName">
+                </div>
+                <div class="col-md-6 mt-3">
+                    <label>Last Name</label>
+                    <input class="w-100 h-60" type="text" name="lastName">
+                </div>
+                <div class="col-md-12 mt-3">
+                    <label>Location</label>
+                    <input class="w-100 h-60" type="text" name="location">
+                </div>
+                <div class="col-md-12 mt-3">
+                    <label>Email Address</label>
+                    <input class="w-100 h-60" type="email" name="email">
+                </div>
+                <div class="col-md-12 mt-3">
+                    <label>Message Me</label>
+                    <textarea class="w-100 h-60"></textarea>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <button class="w-100 h-60">Submit</button>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <button class="w-100 h-60">Reset</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="container-fluid text-center mt-5">
+            <div class="row">
+                <div class="col-md-12 footer">© 2021 Sharlene Mae Vergara All Rights Reserved</div>
+            </div>
+        </div>
+    </body>
+</html>

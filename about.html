@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About Me</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            nav a {
+                font-family: 'Poppins', sans-serif;
+            }
+
+            nav a:hover {
+                font-weight: bold;
+            }
+
+            .image {
+                border-right: 10px solid lightgray;
+                border-bottom: 10px solid lightgray;
+            }
+
+            .mt-5 {
+                margin-top: 70px !important;
+            }
+
+            .mt-4 {
+                margin-top: 40px !important;
+            }
+
+            .info h1 {
+                font-size: 50px;
+                text-transform: lowercase;
+                font-family: 'Fredoka One', cursive;
+                letter-spacing: 3px;
+            }
+
+            .info p {
+                text-align: justify;
+                font-family: 'Poppins', sans-serif;
+                line-height: 30px;
+                margin-top: 10px;
+            }
+
+            .title {
+                font-size: 30px;
+                margin: 0 0 20px 0;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            .details {
+                font-family: 'Poppins', sans-serif;
+            }
+
+            table {
+                font-family: 'Poppins', sans-serif;
+                border: 1px solid lightgray;
+                table-layout: fixed;
+            }
+
+            table td, th {
+                border: 1px solid lightgray;
+                padding: 20px;
+            }
+
+            .footer {
+                background-color: rgb(233, 150, 122, 0.3);
+                height: 10vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Poppins', sans-serif;
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav class="p-2" style="background-color: rgb(233, 150, 122, 0.3);">
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item"><a class="nav-link text-dark" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img class="image img-fluid" src="./images/mae.jpg" alt="Sharlene Mae G. Vergara" title="Sharlene Mae G. Vergara" width="300">
+                </div>
+                <div class="info col-md-8">
+                    <h1>About Me.</h1>
+                    <p>Hello. I'm Sharlene Mae G. Vergara, 21 years of age, I was born and raised in Taal, Batangas, Philippines, currently taking up Bachelor of Science in Computer Engineering at Polytechnic University of the Philippines. I find myself happy when I am designing or decorating simple things. In my case, I would describe myself as a hardworking and detailed person who enjoys music and arts. I love to explore and then end up discover new things that would help me broaden my knowledge and skillset in my chosen profession. I've always aspired to be one of those people who can be flexible in designing websites.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <hr class="mb-5">
+            <div class="row">
+                <div class="col-md-4 text-center details"><b>Address:</b> Cubamba, Taal, Batangas</div>
+                <div class="col-md-4 text-center details"><b>Email:</b> sharlenemaevergara@gmail.com</div>
+                <div class="col-md-4 text-center details"><b> Phone:</b> 0908-930-4950 / 0945-154-9850</div>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <hr class="mb-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="title font-weight-bold text-center">Educational Attainment</h1>
+                </div>
+                <div class="col-md-12">
+                    <table class="table table-bordered w-100 text-center">
+                        <thead>
+                            <th scope="col">Schools Attended</th>
+                            <th scope="col">Address</th>
+                            <th scope="col">Year</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cubamba-Gahol Elementary School</td>
+                                <td>Cubamba, Taal, Batangas</td>
+                                <td>SY 2005-2011</td>
+                            </tr>
+                            <tr>
+                                <td>Ramon Magsaysay High School</td>
+                                <td>España Boulevard, corner Don Quijote St, Sampaloc, Manila</td>
+                                <td>SY 2011-2015</td>
+                            </tr>
+                            <tr>
+                                <td>Polytechnic University of the Philippines</td>
+                                <td>Anonas, Sta. Mesa, Manila</td>
+                                <td>SY 2018-Present</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid text-center mt-5">
+            <div class="row">
+                <div class="col-md-12 footer">© 2021 Sharlene Mae Vergara All Rights Reserved</div>
+            </div>
+        </div>
+    </body>
+</html>
